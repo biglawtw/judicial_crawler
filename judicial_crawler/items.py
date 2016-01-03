@@ -10,5 +10,6 @@ import scrapy
 
 class JudicialCrawlerItem(scrapy.Item):
     # define the fields for your item here like:
-    raw = scrapy.Field()
+    url = scrapy.Field()
+    html = scrapy.Field()
     pass
